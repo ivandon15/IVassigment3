@@ -1,0 +1,105 @@
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #fafafa;
+    font-family: sans-serif;
+}
+
+#title {
+    width: 100%;
+    height: 10%;
+    font-family: sans-serif;
+    /*background: linear-gradient(to bottom, #fafafa00 0%, #fafafa4f 30%);*/
+    opacity: 0.95;
+    text-align: center;
+    color: #ffd7ad;
+}
+
+#map-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.fullchartContainer {
+    position: fixed;
+    height: 75%;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 2%;
+    /* color: rgba(162, 162, 230, 0.459); */
+    background-color: #fafafab6;
+    z-index: 10;
+}
+
+.startpageContainer {
+    position: fixed;
+    height: 84%;
+    width: 69%;
+    margin-left: 1%;
+    color: rgb(0, 0, 0);
+    background-color: #fafafa4b;
+    z-index: 10;
+    background: linear-gradient(to bottom, rgba(250, 250, 250, 0.75), rgba(250, 250, 250, 0.60)),
+    url("https://www.traffictechnologytoday.com/wp-content/uploads/2020/09/PublicTransportation-1.jpg");
+    text-align: center;
+}
+
+.verticalchartContainer {
+    position: fixed;
+    height: 80%;
+    width: 45%;
+    margin-left: 2%;
+    /* color: rgba(0, 0, 255, 0.459); */
+    background-color: #fafafab6;
+    z-index: 10;
+}
+
+#container2 {
+    position: relative;
+    width: 100%;
+    height: calc(100vh);
+    background-color: rgb(255, 255, 255);
+    z-index: 11;
+}
+
+
+#features p{
+    font-size: 1.05rem;
+}
+#features a{
+    font-size: 1.05rem;
+    color: #fafafa;
+    text-decoration: underline;
+}
+.spanEmphasis{
+    color: #ffd7ad;
+    font-weight: bold;
+    text-decoration: underline #ffd7ad;
+}
+.spanEmphasis2{
+    color: #adffef;
+    font-weight: bold;
+    text-decoration: underline #adffef;
+}
+#start-page {
+    color: #333333;
+    font-size: 1.25rem;
+    
+}
+#start-page p{
+    font-weight: 900;
+}
+#start-page .spanEmphasis{
+    color: #ec7c04;
+    text-decoration: underline #ec7c04;
+    font-size: 1.5rem;
+}
+
+#start-page #start-page-title{
+    font-size: 1.75rem;
+    color: #ec7c04;
+    text-decoration: underline #ec7c04;
+}
